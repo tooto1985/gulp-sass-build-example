@@ -1,0 +1,18 @@
+%button{
+    color:red;
+    display: block;
+    text-decoration: none;
+ }
+ .link{
+    @extend %button;
+ }
+
+ .bottom {
+    @extend %button;
+    font-size: 100px;
+    p { 
+        color:darken(#f00,10%); 
+        background-color: lighten(#00F, 20%);
+    }
+ }
+ 
